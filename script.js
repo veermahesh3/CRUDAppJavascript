@@ -10,7 +10,7 @@ function showAlert(message,className){
 
     setTimeout(()=>document.querySelector(".alert").remove(),3000);
 }
-
+//clear all field in this file
 //clear all fields
 function clearFields(){
     document.querySelector("#firstName").value="";
